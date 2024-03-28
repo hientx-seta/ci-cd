@@ -24,8 +24,10 @@ https://github.com/docker/multi-container-app
 
 https://github.com/docker/bindmount-apps
 
+## More info
 
 https://docs.docker.com/reference/dockerfile/
+
 https://docs.docker.com/compose/compose-file/?uuid=35865151-bde5-42e5-b83d-532651f7e719%0A
 
 ## Push to Github
