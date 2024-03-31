@@ -19,3 +19,16 @@ https://www.youtube.com/watch?v=5-9Zdxp0GT0&list=PLIivdWyY5sqJOQJCXW_aYEqwfyi6bu
 
 - Sample code
 https://github.com/GoogleCloudPlatform/microservices-demo
+
+### CI/CD on Google Cloud
+
+https://www.youtube.com/watch?v=orZEBSXbmFU&list=PLIivdWyY5sqJOQJCXW_aYEqwfyi6bu1gC&index=9
+
+- DevOps capabilities
+  
+https://cloud.google.com/architecture/devops?utm_source=youtube&utm_medium=unpaidsoc&utm_campaign=CDR_ret_gcp_orzebsxbmfu_GCPStartupGuides_012522&utm_content=description
+
+- Quick start
+
+https://cloud.google.com/deploy/docs/deploy-app-gke?utm_source=youtube&utm_medium=unpaidsoc&utm_campaign=CDR_ret_gcp_orzebsxbmfu_GCPStartupGuides_012522&utm_content=description
+
