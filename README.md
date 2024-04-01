@@ -32,3 +32,33 @@ https://cloud.google.com/architecture/devops?utm_source=youtube&utm_medium=unpai
 
 https://cloud.google.com/deploy/docs/deploy-app-gke?utm_source=youtube&utm_medium=unpaidsoc&utm_campaign=CDR_ret_gcp_orzebsxbmfu_GCPStartupGuides_012522&utm_content=description
 
+## Deploy Android app with firebase and app tester
+
+https://firebase.google.com/codelabs/appdistribution-app-bundles#3
+
+    android {
+
+       // ...
+
+       buildTypes {
+            getByName("release") {
+                firebaseAppDistribution {
+                  appId = "yourAppId"
+                  artifactType = "AAB"
+                  testers = "ali@example.com, bri@example.com, cal@example.com"
+                }
+            }
+        }
+
+        // ...
+    }
+```
+./gradlew :base:bundleRelease
+
+export FIREBASE_TOKEN=your_firebase_token
+
+./gradlew --stop // Only needed for environment variable changes
+
+./gradlew bundleRelease appDistributionUploadRelease
+
+```
