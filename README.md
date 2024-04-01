@@ -62,3 +62,7 @@ export FIREBASE_TOKEN=your_firebase_token
 ./gradlew bundleRelease appDistributionUploadRelease
 
 ```
+
+## Android CI/CD with Github
+
+https://blog.zelarsoft.com/ci-cd-for-android-using-github-actions-dbea47cad9b4
